@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.shape{
+    height: 200px;
+    width: 200px;
+    border: 1px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+#circle{
+    border-radius: 50%;
+}
+#circle:hover{
+    background-color: #7bbaea;
+}
+#diamond{
+    rotate: 45deg;
+    margin: 60px;
+}
+#diamond:hover{
+    background-color: #e57b7b;
+}
+#diamond h1{
+    rotate: -45deg;
+}
+#box{
+   translate: 10px;
+}
+#square{
+    translate: 40px;
+}
+#square:hover{
+    background-color: rgb(166, 230, 102);
+}
